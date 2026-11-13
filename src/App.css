@@ -1,0 +1,87 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 550px;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+
+.top-section {
+  background: #123653;
+  color: white;
+  padding: 40px;
+}
+
+.tag {
+  display: inline-block;
+  background: #d5e9f5;
+  color: #123653;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.top-section h1 {
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+.top-section p {
+  color: #d5e2ec;
+  line-height: 1.6;
+}
+
+.student-info {
+  padding: 30px 40px;
+}
+
+.student-info h2 {
+  color: #123653;
+  margin-top: 0;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.info-item span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.info-item strong {
+  color: #123653;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 20px 40px;
+  color: #64748b;
+  font-size: 13px;
+  background: #f8fafc;
+}
